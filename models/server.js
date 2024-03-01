@@ -7,8 +7,8 @@ class Server {
     this.app = express();
     this.port = process.env.PORT || 3031;
     this.paths = {
-      auth: "http://api-user66031.se-rmutl.net/",
-      homepage: "http://api-user66031.se-rmutl.net/",
+      auth: "/api/auth",
+      homepage: "/api/homepage",
     };
 
     this.middlewares();
